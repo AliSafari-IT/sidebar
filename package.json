@@ -13,8 +13,7 @@
     "demo": "pnpm build && cd demo && pnpm run build && pnpm dev",
     "dev": "rollup -c -w",
     "gp": "cd demo && gh-pages -d dist && echo 'Deployed to GitHub Pages'",
-    "pregp": "pnpm run build && echo 'Deploying to GitHub Pages'",
-    "github-pages": "cd demo && gh-pages -d dist"
+    "pregp": "pnpm run build && echo 'Deploying to GitHub Pages'"
   },
   "keywords": [
     "asafarim",
