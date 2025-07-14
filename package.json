@@ -1,6 +1,6 @@
 {
   "name": "@asafarim/sidebar",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "type": "module",
   "description": "A collapsible sidebar component for React applications",
   "main": "dist/index.js",
@@ -12,6 +12,8 @@
     "prepare": "npm run build",
     "demo": "pnpm build && cd demo && pnpm run build && pnpm dev",
     "dev": "rollup -c -w",
+    "gp": "cd demo && gh-pages -d dist && echo 'Deployed to GitHub Pages'",
+    "pregp": "pnpm run build && echo 'Deploying to GitHub Pages'",
     "github-pages": "cd demo && gh-pages -d dist"
   },
   "keywords": [
