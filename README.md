@@ -32,6 +32,8 @@ pnpm add @asafarim/sidebar
 
 ## Version History
 
+- **1.1.9** - Updated githubPath and demoPath of PackageLinks component
+- **1.1.8** - Updated github pages branch to main
 - **1.1.7** - Updated repository structure (moved to standalone repository)
 - **1.1.6** - Updated publishConfig to public
 - **1.1.5** - Added demo image

@@ -220,8 +220,8 @@ const App: React.FC = () => {
           <h1 className="demo-title">ASafariM Sidebar Demo</h1>
           <PackageLinks
             packageName="@asafarim/sidebar"
-            githubPath="packages/sidebar"
-            demoPath="packages/sidebar"
+            githubPath="https://github.com/AliSafari-IT/sidebar.git"
+            demoPath="https://alisafari-it.github.io/sidebar"
           />
           {/* Theme toggle button */}
           <button 
