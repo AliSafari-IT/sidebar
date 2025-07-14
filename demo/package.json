@@ -1,13 +1,14 @@
 {
   "name": "sidebar-demo", 
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "predev": "npx kill-port 3009",
     "build": "tsc && vite build",
-    "github-pages": "gh-pages -d dist",
+    "gp": "gh-pages -d dist && echo 'Deployed to GitHub Pages'",
+    "pregp": "pnpm run build && echo 'Deploying to GitHub Pages'",
     "all": "pnpm i && pnpm run build",
     "preview": "vite preview"
   },
