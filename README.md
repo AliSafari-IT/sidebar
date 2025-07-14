@@ -5,7 +5,8 @@ A flexible and customizable collapsible sidebar component for React applications
 ## Demo
 
 ![Sidebar Component Demo](./sidebar-demo-screenshot.png)
-Goto [demo](./demo/readme.md)
+
+Check out the [live demo](https://alisafari-it.github.io/sidebar) or view the [demo source code](./demo/readme.md)
 
 ## Features
 
@@ -31,7 +32,8 @@ pnpm add @asafarim/sidebar
 
 ## Version History
 
-- **1.1.6** - updated publishConfig to public
+- **1.1.7** - Updated repository structure (moved to standalone repository)
+- **1.1.6** - Updated publishConfig to public
 - **1.1.5** - Added demo image
 - **1.1.4** - Added demo folder
 - **1.1.3** - Added support for React component icons
@@ -370,9 +372,15 @@ The sidebar component is built with accessibility in mind:
 
 ## Changelog
 
+### Version 1.1.7
+
+- Moved to standalone repository at https://github.com/AliSafari-IT/sidebar
+- Updated demo deployment to GitHub Pages at https://alisafari-it.github.io/sidebar
+- Updated documentation to reflect new repository structure
+
 ### Version 1.1.6
 
-- updated publishConfig to public
+- Updated publishConfig to public
 
 ### Version 1.1.5
 

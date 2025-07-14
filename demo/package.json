@@ -1,6 +1,6 @@
 {
   "name": "sidebar-demo", 
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AliSafari-IT/asafarim-webapp.git",
-    "directory": "packages/sidebar/demo"
+    "url": "https://github.com/AliSafari-IT/sidebar.git",
+    "directory": "demo"
   },
-  "homepage": "https://github.com/AliSafari-IT/asafarim-webapp/tree/main/packages/sidebar/demo",
+  "homepage": "https://alisafari-it.github.io/sidebar",
   "bugs": {
-    "url": "https://github.com/AliSafari-IT/asafarim-webapp/issues"
+    "url": "https://github.com/AliSafari-IT/sidebar/issues"
   },
   "publishConfig": {
     "access": "public"

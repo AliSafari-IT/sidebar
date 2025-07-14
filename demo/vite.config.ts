@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [react()],
-    base: isProd ? '/sidebar-demo/' : '/',  // Match the path in the built HTML file
+    base: isProd ? '/sidebar/' : '/',  // Match the repository name for GitHub Pages
     server: {
       port: 3009,
       open: true

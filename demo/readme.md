@@ -1,12 +1,12 @@
 # ASafariM Sidebar Demo
 
-[![Deploy Sidebar Demo to Pages](https://github.com/AliSafari-IT/asafarim-webapp/actions/workflows/static/sidebar-package.yml/badge.svg)](https://github.com/AliSafari-IT/asafarim-webapp/blob/main/.github/workflows/deploy-sidebar-demo.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success)](https://alisafari-it.github.io/sidebar)
 
-A comprehensive demo application showcasing the [@asafarim/sidebar](https://github.com/AliSafari-IT/asafarim-webapp/tree/main/packages/sidebar) React component with various configuration options and theming capabilities.
+A comprehensive demo application showcasing the [@asafarim/sidebar](https://github.com/AliSafari-IT/sidebar) React component with various configuration options and theming capabilities.
  
 ## 🚀 Live Demo
 
-Explore the live demo at: [https://alisafari-it.github.io/my-packages/asafarim/sidebar/](https://alisafari-it.github.io/my-packages/asafarim/sidebar/)
+Explore the live demo at: [https://alisafari-it.github.io/sidebar](https://alisafari-it.github.io/sidebar)
 
 ## ✨ Features
 
@@ -54,14 +54,13 @@ This demo application showcases the following features of the `@asafarim/sidebar
 
 ```bash
 # Clone the repository
-git clone https://github.com/AliSafari-IT/asafarim-webapp.git
-cd asafarim-webapp
+git clone https://github.com/AliSafari-IT/sidebar.git
+cd sidebar
 
 # Install dependencies
 pnpm install
 
 # Build the sidebar package
-cd packages/sidebar
 pnpm build
 
 # Run the demo
@@ -129,7 +128,7 @@ The sidebar supports comprehensive theming through CSS variables:
 
 ## 🔄 CI/CD
 
-This demo is automatically deployed to GitHub Pages using GitHub Actions whenever changes are pushed to the main branch. The workflow configuration can be found in `.github/workflows/static/sidebar-package.yml`.
+This demo is deployed to GitHub Pages using the `gh-pages` package. You can deploy it yourself by running `pnpm run github-pages` in the demo directory after building the project.
 
 ## 📄 License
 
@@ -137,10 +136,10 @@ MIT © [Ali Safari](https://github.com/AliSafari-IT)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/AliSafari-IT/asafarim-webapp/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/AliSafari-IT/sidebar/issues).
 
 ## 📞 Contact
 
-Ali Safari - [@AliSafari_IT](https://twitter.com/AliSafari_IT)
+Ali Safari - [@asafarim](https://twitter.com/asafarim)
 
-Project Link: [https://github.com/AliSafari-IT/asafarim-webapp](https://github.com/AliSafari-IT/asafarim-webapp)
+Project Link: [https://github.com/AliSafari-IT/sidebar](https://github.com/AliSafari-IT/sidebar)
