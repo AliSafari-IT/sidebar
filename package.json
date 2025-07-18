@@ -8,6 +8,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
+    "build:watch": "rollup -c -w",
     "all": "pnpm i && pnpm run build",
     "prepare": "npm run build",
     "demo": "pnpm build && cd demo && pnpm run build && pnpm dev",

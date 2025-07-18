@@ -229,7 +229,7 @@ const App: React.FC = () => {
             onClick={toggleTheme}
             aria-label={`Switch to ${theme === "light" ? "dark" : "light"} theme`}
           >
-            {theme === "light" ? <FiMoon size={18} /> : <FiSun size={18} />}
+            {theme === "light" ? <FiMoon size={48} /> : <FiSun size={48} />}
           </button>
         </header>
 
